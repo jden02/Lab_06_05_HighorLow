@@ -19,7 +19,7 @@ public class Main {
             System.exit(0);
         }
 
-        System.out.print("The random number is: " + val + ". Your guess was ");
+        System.out.print("The random number was " + val + ". Your guess was ");
         if(guess == val){
             System.out.println("ON THE MONEY! :D");
         }else if(guess > val){
